@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SDK Version</string>
+
+    <string name="channel_name">General</string>
+    <string name="channel_description">You\'ll only be getting 1</string>
+</resources>
