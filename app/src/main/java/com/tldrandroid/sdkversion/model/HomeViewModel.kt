@@ -71,7 +71,7 @@ class HomeViewModel @Inject constructor(
 
     @SuppressLint("NewApi") // Accounted for via DI
     private fun createNotificationChannel(context: Context) {
-        if (!sdkInt.supportsMutablePendingIntents()) return
+        if (!sdkInt.supportsNotificationChannels()) return
 
         val name = context.getString(R.string.channel_name)
         val descriptionText = context.getString(R.string.channel_description)
